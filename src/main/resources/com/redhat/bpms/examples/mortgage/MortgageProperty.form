@@ -1,0 +1,30 @@
+
+<form id="1458843297">
+<property name="name" value="MortgageProperty.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<property name="migrationStep" value="1"/>
+<field position="0" name="property_address" type="InputText" id="2013333214">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;Addressquot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="property/address"/>
+<property name="outputBinding" value="property/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="property_price" type="InputTextInteger" id="1518985727">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;Sale Pricequot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="property/price"/>
+<property name="outputBinding" value="property/price"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="property" name="#0000A0" type="dataModelerEntry" outId="property" value="com.redhat.bpms.examples.mortgage.Property" id="property"/>
+</form>

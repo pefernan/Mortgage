@@ -1,0 +1,71 @@
+
+<form id="1849151362">
+<property name="name" value="com.redhat.bpms.examples.mortgage.MortgageApplication-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<property name="migrationStep" value="1"/>
+<field position="0" name="application_applicant" type="Subform" id="918612709">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;Mortgage Applicantquot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="application/applicant"/>
+<property name="defaultSubform" value="MortgageApplicant.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+<property name="movedToForm" value="com.redhat.bpms.examples.mortgage.MortgageApplication-taskform-application"/>
+</field>
+<field position="1" name="application_property" type="Subform" id="1618544064">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;Propertyquot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="application/property"/>
+<property name="defaultSubform" value="MortgageProperty.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+<property name="movedToForm" value="com.redhat.bpms.examples.mortgage.MortgageApplication-taskform-application"/>
+</field>
+<field position="2" name="application_downPayment" type="InputTextInteger" id="1601486948">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;Down Paymentquot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="application/downPayment"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+<property name="movedToForm" value="com.redhat.bpms.examples.mortgage.MortgageApplication-taskform-application"/>
+</field>
+<field position="3" name="application_amortization" type="InputTextInteger" id="469114348">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;Amortizationquot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="application/amortization"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+<property name="movedToForm" value="com.redhat.bpms.examples.mortgage.MortgageApplication-taskform-application"/>
+</field>
+<field position="1004" name="application" bag-type="com.redhat.bpms.examples.mortgage.Application" type="Subform" id="1523883121490">
+<property name="label" value="quot;enquot;,quot;applicationquot;"/>
+<property name="inputBinding" value="application"/>
+<property name="outputBinding" value="application"/>
+<property name="defaultSubform" value="a60c0eac-9034-4743-a8e6-a1c2083a91f0"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="address" value="java.lang.String" id="address"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="amortization" value="java.lang.Integer" id="amortization"/>
+<dataHolder inputId="" name="#BBBBBB" type="dataModelerEntry" outId="application" value="com.redhat.bpms.examples.mortgage.Application" id="application"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="appraisalValue" value="java.lang.Integer" id="appraisalValue"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="apr" value="java.lang.Float" id="apr"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="borrowerQualified" value="java.lang.Boolean" id="borrowerQualified"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="brokerOverride" value="java.lang.Boolean" id="brokerOverride"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="creditScore" value="java.lang.Integer" id="creditScore"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="downPayment" value="java.lang.Integer" id="downPayment"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="financialReview" value="java.lang.Boolean" id="financialReview"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="income" value="java.lang.Integer" id="income"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="name" value="java.lang.String" id="name"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="price" value="java.lang.Integer" id="price"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="ssn" value="java.lang.Integer" id="ssn"/>
+</form>

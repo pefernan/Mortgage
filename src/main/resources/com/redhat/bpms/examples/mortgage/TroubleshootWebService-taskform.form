@@ -1,0 +1,21 @@
+
+<form id="948452107">
+<property name="name" value="TroubleshootWebService-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<property name="migrationStep" value="1"/>
+<field position="0" name="errorStack" type="InputTextArea" id="76740205">
+<property name="fieldRequired" value="false"/>
+<property name="height" value="10"/>
+<property name="label" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;Web Service Errorquot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;dequot;,quot;quot;quot;ptquot;,quot;quot;quot;jaquot;,quot;quot;quot;enquot;,quot;quot;quot;frquot;,quot;quot;quot;caquot;,quot;quot;quot;esquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value="200"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="errorStack"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="wsErrorStack" name="#0000A0" type="basicType" outId="" value="java.lang.String" id="wsErrorStack"/>
+</form>
